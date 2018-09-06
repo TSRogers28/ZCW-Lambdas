@@ -1,4 +1,4 @@
-package ZCW-LambasLabNEW;
+package lambdas;
 
 import static org.junit.Assert.assertTrue;
 

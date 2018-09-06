@@ -1,9 +1,5 @@
-package ZCW-LambasLabNEW;
+package lambdas;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
