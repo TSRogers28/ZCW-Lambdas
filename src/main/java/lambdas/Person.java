@@ -1,8 +1,9 @@
 package lambdas;
 
 import java.time.LocalDate;
+import java.time.Period;
 
-public class Person {
+public class Person{
 
     public enum Sex {
         MALE, FEMALE
@@ -25,11 +26,17 @@ public class Person {
         return birthDate;
     }
 
-    public int getAge(LocalDate currentDate) {
-        return AgeCalculator.calculateAge(getBirthDate(), currentDate);
+    public int getAge() {
+        return Period.between(birthDate, LocalDate.now()).getYears();
     }
 
-    public void printPerson() {
-        // ...
+    public Sex getGender(){return this.gender;}
+
+
+
+    public String printPerson() {
+        return ("Name: " + name + "Age: " + getAge());
     }
+
+
 }

@@ -20,7 +20,7 @@ public class PersonTest {
 
     @Test
     public void getAge() {
-        int actual = person.getAge(LocalDate.now());
+        int actual = person.getAge();
 
         Assert.assertEquals(61, actual);
     }
