@@ -34,8 +34,8 @@ public class Person{
 
 
 
-    public String printPerson() {
-        return ("Name: " + name + " Age: " + getAge() + " Gender: " + gender + " Email: "+ emailAddress);
+    public void printPerson() {
+        System.out.println("Name: " + name + " Age: " + getAge() + " Gender: " + gender + " Email: "+ emailAddress);
     }
 
 
