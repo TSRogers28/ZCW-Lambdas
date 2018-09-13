@@ -24,4 +24,11 @@ public class PersonTest {
 
         Assert.assertEquals(61, actual);
     }
+
+    @Test
+    public void printPerson() {
+        String expected = "Name: Daniel Day-Lewis Age: 61 Gender: MALE Email: DDL@yahoo.com";
+
+        Assert.assertEquals(expected, person.printPerson());
+    }
 }

@@ -35,7 +35,7 @@ public class Person{
 
 
     public String printPerson() {
-        return ("Name: " + name + "Age: " + getAge());
+        return ("Name: " + name + " Age: " + getAge() + " Gender: " + gender + " Email: "+ emailAddress);
     }
 
 
